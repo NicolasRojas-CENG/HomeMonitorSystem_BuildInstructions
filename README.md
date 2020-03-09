@@ -128,9 +128,18 @@ This is our design for the PCB, yours may differ, but the idea should be somewha
 
 
 # <a name="Libconfig"> Library installation </a>
-
+Before uploading and running the source code on the Raspberry Pi it is important to install all the proper libraries for the
+sensors.
+1. Make sure you have your Raspberry Pi's terminal open through GUI or SSH connection.
+2. Run the command "sudo pip3 install adafruit-circuitpython-sht31d"
+This will install the libraries needed to use the sht31d
+3. Run the command sudo "raspi-config" navigate to the "Interface" tab using the up and down arrows, and click enter. Next navigate to the "camera" option and change the option to enable. Next restart the Raspberry Pi.
+4. Install Pyrebase by issuing "pip install pyrebase" command
+5. LUCAS'S DEPENDANCIES
 
 # <a name="Software"> Uploading Software to Raspberry Pi </a>
+Once all the Libraries are installed sucussfully, you can download the python file to transfer to the Raspberry Pi.
+[Source Code](ADD LINK HERE)
 
 
 # <a name="PowerUp"> Power Up </a>
