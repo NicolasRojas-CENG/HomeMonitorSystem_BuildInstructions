@@ -36,7 +36,7 @@ You can follow this link to the AdaFruit page for further information.
 
 * [SunFounder DC 3.3-5V Low Level Trigger Magnetic Beep Alarm Sensor](https://www.amazon.ca/gp/product/B014KQLE8Q/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
 
-#< a name ="Cost"> Cost </a>
+#<a name ="Cost"> Cost </a>
 
 ````
 Product & Personal Costs                                                   
