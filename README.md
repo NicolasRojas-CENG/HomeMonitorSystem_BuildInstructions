@@ -10,7 +10,10 @@
 * [MQ-2 sensor](#MQ-2)
 * [Recomended PCB Design](#RecomendedPCBDesign)
 * [PCB/Soldering](#PCB/Soldering)
-* [Libconfig](#Libconfig)
+* [Library Installation](#Libconfig)
+* [Uploading Software to Raspberry Pi](#Software)
+* [Power Up](#Power Up)
+* [Unit Testing](#Unit Testing)
 
 # <a name="Introduction"> Introduction </a>
 
@@ -128,6 +131,12 @@ This is our design for the PCB, yours may differ, but the idea should be somewha
 
 
 # <a name="Software"> Uploading Software to Raspberry Pi </a>
+
+
+# <a name="Power Up"> Power Up </a>
+
+
+# <a name="Unit Testing> Unit Testing </a>
 
 
 
