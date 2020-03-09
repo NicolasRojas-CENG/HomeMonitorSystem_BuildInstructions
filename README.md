@@ -38,17 +38,11 @@ Total Price W/Tax
 $242.17
 
 ````
-# <a name="Time"> Required Time </a>
+# <a name="Time"> Required Time(h) </a>
 
-## Hardware
+## Hardware   Software-APP  Database  | Total Time
+####  35           60          20           115
 
-
-
-## Software - APP
-
-
-
-## Database
 
 # <a name="RequiredSensors/Components"> Required sensors/components </a>
 1.  For this project, we will need a Raspberry Pi 4 Model B, three main sensors plus camera, two supplementary components, and an optional component plus some tools.
