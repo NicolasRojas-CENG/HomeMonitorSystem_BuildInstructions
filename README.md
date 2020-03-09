@@ -40,8 +40,14 @@ $242.17
 ````
 # <a name="Time"> Required Time(h) </a>
 
-## Hardware   Software-APP  Database  | Total Time
-####  35           60          20           115
+### Hardware 
+### 35
+### Software-APP 
+### 60
+### Database  
+### 20 
+### Total Time
+### 115
 
 
 # <a name="RequiredSensors/Components"> Required sensors/components </a>
