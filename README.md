@@ -42,6 +42,14 @@ $242.17
 ````
 # <a name="Time"> Required Time </a>
 
+##Hardware
+
+
+##Software
+
+
+##Database
+
 # <a name="RequiredSensors/Components"> Required sensors/components </a>
 1.  For this project, we will need a Raspberry Pi 4 Model B, three main sensors plus camera, two supplementary components, and an optional component plus some tools.
 Our CPU of choice is the Raspberry Pi 4 Model B. This will give us the ability to work with python code. It will also give us access to both 3.3V and 5v, as some sensors require different voltages. 
