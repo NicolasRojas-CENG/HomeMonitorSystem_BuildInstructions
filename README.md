@@ -28,15 +28,18 @@ You can follow this link to a pdf page for further information.
 1. The first suplementary component is the MCP3008 Analog to Digital conerter. This component will allow us to change the analoge output from the Mq-2 sensor to readable digital signals for the PI. 
 You can follow this link to the AdaFruit page for further information.
 * [AdaFruit-MCP3008](https://www.adafruit.com/product/856)
-1. The second suplementary component is the ??????????????????????/ buzzer
+1. The second suplementary component is the SunFounder Alarm Sensor. This component will allow us to create sound whenever gas has been detected by the Mq-2 Gas sensor. You can follow this link for further information.
+*[SunFounder DC 3.3-5V Low Level Trigger Magnetic Beep Alarm Sensor] (https://www.amazon.ca/gp/product/B014KQLE8Q/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
 
 # <a name="SHT31-D"> SHT31-D sensor </a>
 To be able to use this sensor, you will need to install adafruit-circuitpython-sht31d libraries in your PI.
 After this is done, you will need to use the Pi SCL to connect to the sensor SCL and the Pi SDA to connect to sensor SDA. Ground can be connected to any of the six ground pins. There will be a recomendation in the PCB section of this file. The power must be connected to one of the two 3V pins on the PI.
 
 # <a name="HC-SR501"> HC-SR501 sensor </a>
+
  
 # <a name="MQ-2"> MQ-2 sensor </a>
+The first thing about the sensor that you must understand is, if you want to get the numerical gas readings, you must use the analog output on the sensor. The issue is the PI does not take analog as an input, which means that you will need to purchase a mcp3008 ADC. This converter will allow the analog input to get converted to a digital output for the PI. 
   
 # <a name="RecomendedPCBDesign"> Recomended PCB Desing </a>
 This is our design for the PCB, yours may differ, but the idea should be somewhat similar to this.
