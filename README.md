@@ -5,8 +5,9 @@
 * [Introduction](#Introduction)
 * [Required sensors/components](#RequiredSensors/Components)
 * [SHT31-D sensor](#SHT31-D)
-* [MQ-2 sensor](#MQ-2)
 * [HC-SR501 sensor](#HC-SR501)
+* [MQ-2 sensor](#MQ-2)
+* [Recomended PCB Design](#RecomendedPCBDesign)
 
 # <a name="Introduction"> Introduction </a>
 
@@ -27,4 +28,15 @@ You can follow this link to a pdf page for further information.
 1. The first suplementary component is the MCP3008 Analog to Digital conerter. This component will allow us to change the analoge output from the Mq-2 sensor to readable digital signals for the PI. 
 You can follow this link to the AdaFruit page for further information.
 * [AdaFruit-MCP3008](https://www.adafruit.com/product/856)
+1. The second suplementary component is the ??????????????????????/ buzzer
 
+# <a name="SHT31-D"> SHT31-D sensor </a>
+To be able to use this sensor, you will need to install adafruit-circuitpython-sht31d libraries in your PI.
+After this is done, you will need to use the Pi SCL to connect to the sensor SCL and the Pi SDA to connect to sensor SDA. Ground can be connected to any of the six ground pins. There will be a recomendation in the PCB section of this file. The power must be connected to one of the two 3V pins on the PI.
+
+# <a name="HC-SR501"> HC-SR501 sensor </a>
+ 
+# <a name="MQ-2"> MQ-2 sensor </a>
+  
+# <a name="RecomendedPCBDesign"> Recomended PCB Desing </a>
+This is our design for the PCB, yours may differ, but the idea should be somewhat similar to this.
