@@ -12,8 +12,8 @@
 * [PCB/Soldering](#PCB/Soldering)
 * [Library Installation](#Libconfig)
 * [Uploading Software to Raspberry Pi](#Software)
-* [Power Up](#Power Up)
-* [Unit Testing](#Unit Testing)
+* [Power Up](#PowerUp)
+* [Unit Testing](#UnitTesting)
 
 # <a name="Introduction"> Introduction </a>
 
@@ -133,10 +133,10 @@ This is our design for the PCB, yours may differ, but the idea should be somewha
 # <a name="Software"> Uploading Software to Raspberry Pi </a>
 
 
-# <a name="Power Up"> Power Up </a>
+# <a name="PowerUp"> Power Up </a>
 
 
-# <a name="Unit Testing> Unit Testing </a>
+# <a name="UnitTesting> Unit Testing </a>
 
 
 
