@@ -9,6 +9,8 @@
 * [HC-SR501 sensor](#HC-SR501)
 * [MQ-2 sensor](#MQ-2)
 * [Recomended PCB Design](#RecomendedPCBDesign)
+* [PCB/Soldering](#PCB/Soldering)
+* [Libconfig](#Libconfig)
 
 # <a name="Introduction"> Introduction </a>
 
@@ -117,3 +119,29 @@ ALARM AOUT to Raspberry Pi GPIO 5
 # <a name="RecomendedPCBDesign"> Recommended PCB Design </a>
 This is our design for the PCB, yours may differ, but the idea should be somewhat similar to this.
 ![BACKGROUND_ATTRIBUTE](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/PCB.PNG?raw=true)
+
+
+# <a name="PCB/Soldering"> PCB/Soldering </a>
+
+
+# <a name="Libconfig"> Library installation </a>
+
+
+# <a name="Software"> Uploading Software to Raspberry Pi </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
