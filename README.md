@@ -6,9 +6,7 @@
 * [Cost](#Cost)
 * [Time Required](#Time)
 * [Required sensors/components](#RequiredSensors/Components)
-* [SHT31-D sensor](#SHT31-D)
-* [HC-SR501 sensor](#HC-SR501)
-* [MQ-2 sensor](#MQ-2)
+* [Hardware Assembly Procedure](#hardwareAss)
 * [Recomended PCB Design](#RecomendedPCBDesign)
 * [PCB/Soldering](#PCB/Soldering)
 * [Library Installation](#Libconfig)
@@ -45,7 +43,9 @@ $242.17
 ## Hardware
 
 
-## Software
+
+## Software - APP
+
 
 
 ## Database
@@ -73,7 +73,8 @@ You can follow this link to the AdaFruit page for further information.
 * [SunFounder DC 3.3-5V Low Level Trigger Magnetic Beep Alarm Sensor](https://www.amazon.ca/gp/product/B014KQLE8Q/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
 1. The optional component is the LED, which you would need a resistor as well. This LED is used to indicate when a new Temp/Hum reading is gathered.
 
-# <a name="SHT31-D"> SHT31-D sensor </a>
+# <a name="hardwareAss"> Hardware Assembly Procedure </a>
+### SHT31-D sensor
 To be able to use this sensor, you will need to install adafruit-circuitpython-sht31d libraries in your PI.
 ````
 sudo pip3 install adafruit-circuitpython-sht31d
@@ -94,13 +95,13 @@ SHT31-D SCL to Raspberry Pi SCL
 SHT31-D GND to Raspberry Pi GND
 ````
 
-# <a name="HC-SR501"> HC-SR501 sensor </a>
+### HC-SR501 sensor
 The HC-SR501 sensor along with the raspberry pi in order to be able to detect motion. The sensor has 3 pins: VCC, GND, OUT. The operational voltage for the sensor is between 5 and 20 volts with an output voltage of 3.3V when motion is detected and 0V when no motion is detected. For more details about this sensor you can check out the link below.
 
 https://www.mpja.com/download/31227sc.pdf
 
  
-# <a name="MQ-2"> MQ-2 sensor </a>
+### MQ-2 sensor
 The first thing about the sensor that you must understand is, if you want to get the numerical gas readings, you must use the analog output on the sensor. The issue is the PI does not take analog as an input, which means that you will need to purchase a mcp3008 ADC. This converter will allow the analog input to get converted to a digital output for the PI. To start to install the `Adafruit MCP3008 Python Library.`
 The reference my team used to install the library is right here. [MCP3008 Setup](https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/mcp3008). Next, you can use the pin connections below or the PCB example to build you connections. 
 
