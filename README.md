@@ -40,3 +40,4 @@ After this is done, you will need to use the Pi SCL to connect to the sensor SCL
   
 # <a name="RecomendedPCBDesign"> Recomended PCB Desing </a>
 This is our design for the PCB, yours may differ, but the idea should be somewhat similar to this.
+![BACKGROUND_ATTRIBUTE](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/PCB.PNG?raw=true)
