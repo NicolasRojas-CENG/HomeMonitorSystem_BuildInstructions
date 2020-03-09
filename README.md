@@ -10,3 +10,6 @@
 # <a name="RequiredSensors/Components"> Required sensors/components </a>
 For this project, we will need a Raspberry Pi 4 Model B, three main sensors, two supplementary components, and an optional component.
 Our CPU of choice is the raspberry 
+
+
+HELLO EDIT EDIT EDIT
