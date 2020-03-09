@@ -49,6 +49,7 @@ MCP3008 - 8-Channel 10-Bit ADC                             $3.75  |
 Beep Alarm Sensor                                          $7.99  |
 Seloky 143pcs Female Pin Header Socket                     $21.99 |
 120pcs Jumber Wires                                        $9.69  |
+Camera Module 5MP REV 1.3                                  $13.99 |
 
 Total Price W/Tax
 
@@ -78,6 +79,9 @@ SHT31-D GND to Raspberry Pi GND
 ````
 
 # <a name="HC-SR501"> HC-SR501 sensor </a>
+The HC-SR501 sensor along with the raspberry pi in order to be able to detect motion. The sensor has 3 pins: VCC, GND, OUT. The operational voltage for the sensor is between 5 and 20 volts with an output voltage of 3.3V when motion is detected and 0V when no motion is detected. For more details about this sensor you can check out the link below.
+
+https://www.mpja.com/download/31227sc.pdf
 
  
 # <a name="MQ-2"> MQ-2 sensor </a>
