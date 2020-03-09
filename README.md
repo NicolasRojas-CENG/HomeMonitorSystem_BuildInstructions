@@ -141,6 +141,13 @@ This will install the libraries needed to use the sht31d
 Once all the Libraries are installed sucussfully, you can download the python file to transfer to the Raspberry Pi.
 [Source Code](ADD LINK HERE)
 
+If you're using a mac, you can use an application called "cyberduck" to transfer the code. 
+1. Click open connection
+2. Change the connection protocol to SSH File Transfer Protocol
+3. For the server option type the Raspberry Pi's IP address
+4. Enter the username and password for the raspberry pi you're connecting to.
+5. Drag and drop the downloaded software file to the directory of your choice.
+
 
 # <a name="PowerUp"> Power Up </a>
 
