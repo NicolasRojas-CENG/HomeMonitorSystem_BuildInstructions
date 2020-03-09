@@ -40,7 +40,9 @@ After this is done, you will need to use the Pi SCL to connect to the sensor SCL
 
  
 # <a name="MQ-2"> MQ-2 sensor </a>
-The first thing about the sensor that you must understand is, if you want to get the numerical gas readings, you must use the analog output on the sensor. The issue is the PI does not take analog as an input, which means that you will need to purchase a mcp3008 ADC. This converter will allow the analog input to get converted to a digital output for the PI. 
+The first thing about the sensor that you must understand is, if you want to get the numerical gas readings, you must use the analog output on the sensor. The issue is the PI does not take analog as an input, which means that you will need to purchase a mcp3008 ADC. This converter will allow the analog input to get converted to a digital output for the PI. To start to install the `Adafruit MCP3008 Python Library.`
+The reference my team used to install this library is right here. [MCP3008 Setup](https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/mcp3008)
+
   
 # <a name="RecomendedPCBDesign"> Recomended PCB Desing </a>
 This is our design for the PCB, yours may differ, but the idea should be somewhat similar to this.
