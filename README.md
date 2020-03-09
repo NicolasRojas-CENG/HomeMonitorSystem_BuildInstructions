@@ -39,7 +39,7 @@ You can follow this link to the AdaFruit page for further information.
 # <a name="Cost"> Cost </a>
 
 ````
-Product & Personal Costs                                                   
+Product & Team Costs                                                   
 
 Pi 4 2GB Starter Kit - 32GB                                $119.95|
 Willwin 2pcs MQ-2 Sensor - Gas/Smoke Sensor                $12.10 |
