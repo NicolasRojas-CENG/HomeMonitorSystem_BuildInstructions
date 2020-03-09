@@ -152,7 +152,7 @@ sensors.
 This will install the libraries needed to use the sht31d
 3. Run the command sudo "raspi-config" navigate to the "Interface" tab using the up and down arrows, and click enter. Next navigate to the "camera" option and change the option to enable. Next restart the Raspberry Pi.
 4. Install Pyrebase by issuing "pip install pyrebase" command
-5. LUCAS'S DEPENDANCIES
+5. Install Adafruit MCP3008 Python Library for ADC.
 
 # <a name="Software"> Uploading Software to Raspberry Pi </a>
 Once all the Libraries are installed sucussfully, you can download the python file to transfer to the Raspberry Pi.
