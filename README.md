@@ -4,12 +4,16 @@
 ## Table of Contents
 * [Introduction](#Introduction)
 * [Required sensors/components](#RequiredSensors/Components)
+* [Cost](#Cost)
 * [SHT31-D sensor](#SHT31-D)
 * [HC-SR501 sensor](#HC-SR501)
 * [MQ-2 sensor](#MQ-2)
 * [Recomended PCB Design](#RecomendedPCBDesign)
 
 # <a name="Introduction"> Introduction </a>
+
+These build instructions will grant you the ability to reproduce the Smart-Home-Monitor system from scratch. It includes in detail the cost, connections, and code on how to get these three sensors to work in unison. 
+
 
 # <a name="RequiredSensors/Components"> Required sensors/components </a>
 1.  For this project, we will need a Raspberry Pi 4 Model B, three main sensors plus camera, two supplementary components, and an optional component plus some tools.
@@ -31,6 +35,26 @@ You can follow this link to the AdaFruit page for further information.
 1. The second suplementary component is the SunFounder Alarm Sensor. This component will allow us to create sound whenever gas has been detected by the Mq-2 Gas sensor. You can follow this link for further information.
 
 * [SunFounder DC 3.3-5V Low Level Trigger Magnetic Beep Alarm Sensor](https://www.amazon.ca/gp/product/B014KQLE8Q/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
+
+#< a name ="Cost"> Cost </a>
+
+````
+Product & Personal Costs                                                   
+
+Pi 4 2GB Starter Kit - 32GB                                $119.95|
+Willwin 2pcs MQ-2 Sensor - Gas/Smoke Sensor                $12.10 |
+Adafruit Sensirion SHT31-D - Temperature & Humidity Sensor $13.95 |
+Aukru 3X HC-SR501 Human Sensor Module                      $10.99 |
+MCP3008 - 8-Channel 10-Bit ADC                             $3.75  |
+Beep Alarm Sensor                                          $7.99  |
+Seloky 143pcs Female Pin Header Socket                     $21.99 |
+120pcs Jumber Wires                                        $9.69  |
+
+Total Price W/Tax
+
+$316.86
+
+````
 
 # <a name="SHT31-D"> SHT31-D sensor </a>
 To be able to use this sensor, you will need to install adafruit-circuitpython-sht31d libraries in your PI.
@@ -69,6 +93,6 @@ ALARM AOUT to Raspberry Pi GPIO 5
 ````
 
   
-# <a name="RecomendedPCBDesign"> Recomended PCB Desing </a>
+# <a name="RecomendedPCBDesign"> Recommended PCB Design </a>
 This is our design for the PCB, yours may differ, but the idea should be somewhat similar to this.
 ![BACKGROUND_ATTRIBUTE](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/PCB.PNG?raw=true)
