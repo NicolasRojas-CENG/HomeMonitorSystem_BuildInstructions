@@ -42,13 +42,13 @@ $242.17
 ````
 # <a name="Time"> Required Time </a>
 
-##Hardware
+## Hardware
 
 
-##Software
+## Software
 
 
-##Database
+## Database
 
 # <a name="RequiredSensors/Components"> Required sensors/components </a>
 1.  For this project, we will need a Raspberry Pi 4 Model B, three main sensors plus camera, two supplementary components, and an optional component plus some tools.
