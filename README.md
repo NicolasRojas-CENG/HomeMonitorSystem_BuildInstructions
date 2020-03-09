@@ -130,6 +130,11 @@ ALARM GND to Raspberry Pi GND
 ALARM AOUT to Raspberry Pi GPIO 5
 ````
 
+## BreadBoard Image 
+
+![Breadboard](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Breadboard.jpg)
+
+
   
 # <a name="RecomendedPCBDesign"> Recommended PCB Design </a>
 This is our design for the PCB, yours may differ, but the idea should be somewhat similar to this.
