@@ -29,7 +29,8 @@ You can follow this link to a pdf page for further information.
 You can follow this link to the AdaFruit page for further information.
 * [AdaFruit-MCP3008](https://www.adafruit.com/product/856)
 1. The second suplementary component is the SunFounder Alarm Sensor. This component will allow us to create sound whenever gas has been detected by the Mq-2 Gas sensor. You can follow this link for further information.
-*[SunFounder DC 3.3-5V Low Level Trigger Magnetic Beep Alarm Sensor](https://www.amazon.ca/gp/product/B014KQLE8Q/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
+
+* [SunFounder DC 3.3-5V Low Level Trigger Magnetic Beep Alarm Sensor](https://www.amazon.ca/gp/product/B014KQLE8Q/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
 
 # <a name="SHT31-D"> SHT31-D sensor </a>
 To be able to use this sensor, you will need to install adafruit-circuitpython-sht31d libraries in your PI.
