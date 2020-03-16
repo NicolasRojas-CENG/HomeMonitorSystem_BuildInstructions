@@ -145,10 +145,10 @@ This is our design for the PCB, yours may differ, but the idea should be somewha
 
 This is how you would solder the PCB.
 This is the top view of the PCB:
-![Breadboard](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Top_View.jpg?raw=true)
+![BACKGROUND_ATTRIBUTE](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Top_View.jpg?raw=true)
 
 This is the bottom view of the PCB:
-![Breadboard](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Bottom_View.jpg?raw=true)
+![BottomView](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Bottom_View.jpg?raw=true)
 
 # <a name="Libconfig"> Library installation </a>
 Before uploading and running the source code on the Raspberry Pi it is important to install all the proper libraries for the
@@ -178,18 +178,6 @@ If you're using a mac, you can use an application called "cyberduck" to transfer
 # <a name="UnitTesting"> Unit Testing </a>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+![PCB&Sensors](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Complete.jpg?raw=true)
 
 
