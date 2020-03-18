@@ -197,7 +197,17 @@ The database being used to support our application is Firebase, you can create a
 
 The structure of the database looks like this.
 
+![Database](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/DatabaseStructure.png?raw=true)
+
+
 The main branch we have is the 'Member' branch this is where all the registered users and their devices are kept. Inside this 'Member' branch there are unique user ID's which contains more sub-branches such as Devices and uploads, as well as key value pairs of dob, email, timestamp. The branch 'uploads' contains key value pairs of a unique lable with a link to an image the device as captured. Within the Devices branch contains more branches with the names of each device linked to the users account, within this branch there are Gas-Readings, Humidity-Readings, Tempature-Readings which are used to store the data from the hardware device.
+
+
+
+
+
+
+
 
 
 ![PCB&Sensors](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Complete.jpg?raw=true)
