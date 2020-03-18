@@ -13,6 +13,7 @@
 * [Uploading Software to Raspberry Pi](#Software)
 * [Power Up](#PowerUp)
 * [Unit Testing](#UnitTesting)
+* [Android App Building Instructions](#AppBuildInstruct)
 
 # <a name="Introduction"> Introduction </a>
 
@@ -176,6 +177,16 @@ If you're using a mac, you can use an application called "cyberduck" to transfer
 
 
 # <a name="UnitTesting"> Unit Testing </a>
+
+
+# <a name="AppBuildInstruct"> Android App Building Instructions </a>
+
+The software was build using Android Studio Version 3.5.1. It is also required to ensure the classpath is set to 'com.android.tools.build:gradle:3.4.1' in the build.gradle file. In the second build.gradle 2 of the following dependance must be added. implementation 'com.squareup.picasso:picasso:2.71828' & implementation 'com.github.PhilJay:MPAndroidChart:v3.+' although these are already setup when downloading our app from github you may need to update the depenancies to a newer version, or change the classpath to work with an older version of Android Studio. 
+The minimum API is 21 and supports devices running Andrioid Lollipop supporting approximately 85% of devices. 
+The smartHomeMonitoring system is currently not on the Android app store so the only way to run it is buy checking out a project from version control, selecting github and pasting the URL 'https://github.com/getLiauba/SmartHomeSoftwarePRoject.git'
+
+
+
 
 
 ![PCB&Sensors](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Complete.jpg?raw=true)
