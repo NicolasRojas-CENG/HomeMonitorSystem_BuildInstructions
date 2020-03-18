@@ -14,6 +14,7 @@
 * [Power Up](#PowerUp)
 * [Unit Testing](#UnitTesting)
 * [Android App Building Instructions](#AppBuildInstruct)
+* [Database Setup/Structure](#Database-Setup)
 
 # <a name="Introduction"> Introduction </a>
 
@@ -184,9 +185,19 @@ If you're using a mac, you can use an application called "cyberduck" to transfer
 The software was build using Android Studio Version 3.5.1. It is also required to ensure the classpath is set to 'com.android.tools.build:gradle:3.4.1' in the build.gradle file. In the second build.gradle 2 of the following dependance must be added. implementation 'com.squareup.picasso:picasso:2.71828' & implementation 'com.github.PhilJay:MPAndroidChart:v3.+' although these are already setup when downloading our app from github you may need to update the depenancies to a newer version, or change the classpath to work with an older version of Android Studio. 
 The minimum API is 21 and supports devices running Andrioid Lollipop supporting approximately 85% of devices. 
 The smartHomeMonitoring system is currently not on the Android app store so the only way to run it is buy checking out a project from version control, selecting github and pasting the URL 'https://github.com/getLiauba/SmartHomeSoftwarePRoject.git'
+Setting up the database as per the databse configuration instructions is require to get your google-services.json file which
+must be included within the application folder. ApplicationName/app/google-services.json.
+
+# <a name="Database-Setup"> Database Setup/Structure </a>
+
+The database being used to support our application is Firebase, you can create a free account with them, and select create a project.
 
 
+#structure
 
+The structure of the database looks like this.
+
+The main branch we have is the 'Member' branch this is where all the registered users and their devices are kept. Inside this 'Member' branch there are unique user ID's which contains more sub-branches such as Devices and uploads, as well as key value pairs of dob, email, timestamp. The branch 'uploads' contains key value pairs of a unique lable with a link to an image the device as captured. Within the Devices branch contains more branches with the names of each device linked to the users account, within this branch there are Gas-Readings, Humidity-Readings, Tempature-Readings which are used to store the data from the hardware device.
 
 
 ![PCB&Sensors](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Complete.jpg?raw=true)
