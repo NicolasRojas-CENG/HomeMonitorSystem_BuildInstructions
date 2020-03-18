@@ -99,8 +99,14 @@ SHT31-D GND to Raspberry Pi GND
 
 ### HC-SR501 sensor
 The HC-SR501 sensor along with the raspberry pi in order to be able to detect motion. The sensor has 3 pins: VCC, GND, OUT. The operational voltage for the sensor is between 5 and 20 volts with an output voltage of 3.3V when motion is detected and 0V when no motion is detected. For more details about this sensor you can check out the link below.
-
 https://www.mpja.com/download/31227sc.pdf
+
+````
+Connections:
+HC-SR501 VCC to Raspberry Pi 5V
+HC-SR501 OUT to Raspberry Pi GPIO6
+HC-SR501 GND to Raspberry Pi GND
+````
 
  
 ### MQ-2 sensor
