@@ -158,6 +158,8 @@ This is the top view of the PCB:
 This is the bottom view of the PCB:
 ![BottomView](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Bottom_View.jpg?raw=true)
 
+![PCB&Sensors](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Complete.jpg?raw=true)
+
 # <a name="Libconfig"> Library installation </a>
 Before uploading and running the source code on the Raspberry Pi it is important to install all the proper libraries for the
 sensors.
@@ -235,11 +237,5 @@ images/*images will be saved in here*
 
 
 
-
-
-
-
-
-![PCB&Sensors](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Complete.jpg?raw=true)
 
 
