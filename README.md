@@ -196,12 +196,16 @@ must be included within the application folder. ApplicationName/app/google-servi
 
 # <a name="Database-Setup"> Database Setup/Structure </a>
 
-The database being used to support our application is Firebase, you can create a free account with them, and select create a project.
+### Database Setup
+
+The database being used to support our application is Firebase. Firebase is a multi tool application that allows the user to control,grow, and analyize a database for your app. 
+
+Google provides a very easy to follow and indepth setup for firebase in the link below.
+[Firebase Setup](https://firebase.google.com/docs/android/setup)
 
 
-#structure
 
-The structure of the database looks like this.
+### Database Structure 
 
 ![Database](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/DatabaseStructure.png?raw=true)
 
