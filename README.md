@@ -198,6 +198,7 @@ must be included within the application folder. ApplicationName/app/google-servi
 
 # <a name="Database-Setup"> Database Setup/Structure </a>
 
+
 ### Database Setup
 
 The database being used to support our application is Firebase. Firebase is a multi tool application that allows the user to control,grow, and analyize a database for your app. 
