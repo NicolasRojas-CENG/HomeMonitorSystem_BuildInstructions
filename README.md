@@ -209,9 +209,13 @@ The main Steps are:
 - Step 3: Add a Firebase configuration file(google-services.json)
 - Step 4: Add Firebase SDKs to your app
 
-Google provides a very easy to follow and indepth setup for firebase. Use the link below to setup your app for firebase. When on the website, make sure you have all the prerequisites, and once that is complete, option 1 is the recommended option to follow. 
+Google provides a very easy to follow and indepth setup for firebase. Use the link below to setup your app for firebase. When on the website, make sure you have all the prerequisites, and once that is complete, option 1 is the recommended option to follow.
 
 [Firebase Setup](https://firebase.google.com/docs/android/setup)
+
+To find out information about your project like the WebApiKey,google-services.json config file or the APP ID. Click on the **Settings button**, beside *Project Overview* and then click on **Project Settings**
+
+![firebasesettings](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/firebasesetting.png)
 
 Once the setup is complete, go into your project, click database and create a database. The structure of the database should be created like the one below.  
 
