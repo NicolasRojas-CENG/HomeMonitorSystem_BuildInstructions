@@ -226,8 +226,11 @@ The main branch we have is the 'Member' branch this is where all the registered 
 
 The Storage category on firebase is used to store images that are taken by the camera. We then grab this data from firebase/storage and transfer it to the app via pyrebase. Create a directory in storage similar to the one in the pictures below. 
 
-![Storagepic1]
-![Storagepic2] 
+images/*images will be saved in here*
+
+![Storagepic1](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/storage1.png)
+
+![Storagepic2](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/storage2.png)
 
 
 
