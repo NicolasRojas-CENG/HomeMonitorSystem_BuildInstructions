@@ -200,9 +200,18 @@ must be included within the application folder. ApplicationName/app/google-servi
 
 The database being used to support our application is Firebase. Firebase is a multi tool application that allows the user to control,grow, and analyize a database for your app. 
 
-Google provides a very easy to follow and indepth setup for firebase in the link below.
+##### Steps to setup Firebase.
+The main Steps are:
+- Step 1: Create a Firebase project.
+- Step 2: Register your app with Firebase
+- Step 3: Add a Firebase configuration file(google-services.json)
+- Step 4: Add Firebase SDKs to your app
+
+Google provides a very easy to follow and indepth setup for firebase. Use the link below to setup your app for firebase. When on the website, make sure you have all the prerequisites, and once that is complete, option 1 is the recommended option to follow. 
+
 [Firebase Setup](https://firebase.google.com/docs/android/setup)
 
+Once the setup is complete, go into your project, click database and create a database. The structure of the database should be created like the one below.  
 
 
 ### Database Structure 
@@ -211,6 +220,14 @@ Google provides a very easy to follow and indepth setup for firebase in the link
 
 
 The main branch we have is the 'Member' branch this is where all the registered users and their devices are kept. Inside this 'Member' branch there are unique user ID's which contains more sub-branches such as Devices and uploads, as well as key value pairs of dob, email, timestamp. The branch 'uploads' contains key value pairs of a unique lable with a link to an image the device as captured. Within the Devices branch contains more branches with the names of each device linked to the users account, within this branch there are Gas-Readings, Humidity-Readings, Tempature-Readings which are used to store the data from the hardware device.
+
+
+### Storage Structure 
+
+The Storage category on firebase is used to store images that are taken by the camera. We then grab this data from firebase/storage and transfer it to the app via pyrebase. Create a directory in storage similar to the one in the pictures below. 
+
+![Storagepic1]
+![Storagepic2] 
 
 
 
