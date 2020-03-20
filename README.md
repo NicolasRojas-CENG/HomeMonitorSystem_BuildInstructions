@@ -3,6 +3,7 @@
 
 ## Table of Contents
 * [Introduction](#Introduction)
+* [Functionality](#Functionality)
 * [Cost](#Cost)
 * [Time Required](#Time)
 * [Required sensors/components](#RequiredSensors/Components)
@@ -19,6 +20,10 @@
 # <a name="Introduction"> Introduction </a>
 
 These build instructions will grant you the ability to reproduce the Smart-Home-Monitor system from scratch. It includes in detail the cost, connections, and code on how to get these three sensors to work in unison. 
+
+# <a name="Functionality"> Functionality </a>
+This is the functionality of our project.
+![Diagram](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Functionality.PNG?raw=true)
 
 # <a name="Cost"> Cost </a>
 
