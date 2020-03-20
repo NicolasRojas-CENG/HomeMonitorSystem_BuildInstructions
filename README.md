@@ -23,7 +23,7 @@ These build instructions will grant you the ability to reproduce the Smart-Home-
 
 # <a name="Functionality"> Functionality </a>
 This is the functionality of our project.
-![Diagram](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Functionality.PNG?raw=true)
+![Diagram](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Functionality.png?raw=true)
 
 # <a name="Cost"> Cost </a>
 
