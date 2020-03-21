@@ -12,7 +12,6 @@
 * [PCB/Soldering](#PCB/Soldering)
 * [Library Installation](#Libconfig)
 * [Uploading Software to Raspberry Pi](#Software)
-* [Power Up](#PowerUp)
 * [Unit Testing](#UnitTesting)
 * [Android App Building Instructions](#AppBuildInstruct)
 * [Database Setup/Structure](#Database-Setup)
