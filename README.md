@@ -189,10 +189,6 @@ If you're using a mac, you can use an application called "cyberduck" to transfer
 4. Enter the username and password for the raspberry pi you're connecting to.
 5. Drag and drop the downloaded software file to the directory of your choice.
 
-
-# <a name="PowerUp"> Power Up </a>
-
-
 # <a name="UnitTesting"> Unit Testing </a>
 ![Output](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Images/Sample_Output.PNG?raw=true)
 
