@@ -179,7 +179,7 @@ This will install the libraries needed to use the sht31d
 
 # <a name="Software"> Uploading Software to Raspberry Pi </a>
 Once all the Libraries are installed sucussfully, you can download the python file to transfer to the Raspberry Pi.
-[Source Code](ADD LINK HERE)
+[Source Code](https://github.com/NicolasRojas-CENG/HomeMonitorSystem_BuildInstructions/blob/master/Software/mq2code.py)
 
 If you're using a mac, you can use an application called "cyberduck" to transfer the code. 
 1. Click open connection
